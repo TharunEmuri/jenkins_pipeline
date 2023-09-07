@@ -17,8 +17,8 @@ pipeline {
 			success{
 				emailext attachLog: true,
 		
-				subject: "Build status Email",
-				body: "Build was successfull",
+				subject: "unit test status Email",
+				body: "unit test  was successfull",
 				to: "tarunchowdary.e@gmail.com"
 				}
 		}
@@ -40,8 +40,8 @@ pipeline {
 			success{
 				emailext attachLog: true,
 				
-				subject: "Build status Email",
-				body: "Build was successfull",
+				subject: "security scan status Email",
+				body: "security scanwas successfull",
 				to: "tarunchowdary.e@gmail.com"
 				}
 		}
