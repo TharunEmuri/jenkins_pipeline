@@ -74,7 +74,7 @@ pipeline {
 				body: "Build was successfull",
 				to: "tarunchowdary.e@gmail.com"
 				}
-		}
+	}
         }
    } 
 
